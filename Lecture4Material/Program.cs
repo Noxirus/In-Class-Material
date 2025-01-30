@@ -1,37 +1,50 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-// Generate a random number from 1 - 100
 int randomNumber = new Random().Next(0, 100) + 1;
+bool playingGame = true;
+int guessesRemaining = 10;
 
-// Ask the player to enter a number with this range in mind
-Console.WriteLine("Guess a number between 1 and 100");
-if (int.TryParse(Console.ReadLine(), out int guessedNumber))
+while (playingGame)
 {
-    Console.WriteLine($"You Guessed: {guessedNumber}");
-    if (guessedNumber > randomNumber)
+    Console.WriteLine("Guess a number between 1 and 100");
+    if (int.TryParse(Console.ReadLine(), out int guessedNumber))
     {
-        Console.WriteLine("You guessed too high!");
-    }
-    else if (guessedNumber < randomNumber)
-    {
-        Console.WriteLine("You guessed too low!");
+        guessesRemaining--;
+        Console.WriteLine($"You Guessed: {guessedNumber}");
+        if (guessedNumber > randomNumber)
+        {
+            Console.WriteLine("You guessed too high!");
+            CheckGuessesRemaining();
+        }
+        else if (guessedNumber < randomNumber)
+        {
+            Console.WriteLine("You guessed too low!");
+            CheckGuessesRemaining();
+        }
+        else
+        {
+            Console.WriteLine($"You guessed correct with {guessesRemaining} guesses remaining");
+            playingGame = false;
+        }
     }
     else
     {
-        Console.WriteLine("Correct!");
+        Console.WriteLine("Please enter a valid number");
     }
 }
-else
+
+void CheckGuessesRemaining()
 {
-    Console.WriteLine("Please enter a valid number");
+    if (guessesRemaining == 0)
+    {
+        Console.WriteLine("Out of guesses!");
+        playingGame = false;
+    }
+    else
+    {
+        Console.WriteLine($"You have {guessesRemaining} guesses left");
+    }
 }
-
-Console.WriteLine("You Guessed: " + guessedNumber);
-
-
-// check to see if the guess was correct
-// check if number is too high or too low
-// display result of the number guess based on these conditions
 // IF correct, inform the player, end the game
 // IF incorrect, inform the player the number was higher or lower
 // THEN loop back and get the player to guess again
