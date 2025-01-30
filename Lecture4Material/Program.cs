@@ -2,7 +2,8 @@
 
 using Lecture4Material;
 using Lecture4Material.TextAdventure;
-TextGame.PlayGame();
+TextGame newGame = new TextGame();
+newGame.PlayGame();
 return;
 
 int randomNumber = new Random().Next(0, 100) + 1;
