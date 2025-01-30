@@ -12,3 +12,4 @@ D:\Projects\BVCProjects\Rider\Lecture4Material\Lecture4Material\obj\Debug\net9.0
 D:\Projects\BVCProjects\Rider\Lecture4Material\Lecture4Material\obj\Debug\net9.0\Lecture4Material.pdb
 D:\Projects\BVCProjects\Rider\Lecture4Material\Lecture4Material\obj\Debug\net9.0\Lecture4Material.genruntimeconfig.cache
 D:\Projects\BVCProjects\Rider\Lecture4Material\Lecture4Material\obj\Debug\net9.0\ref\Lecture4Material.dll
+D:\Projects\BVCProjects\Rider\Lecture4Material\Lecture4Material\obj\Debug\net9.0\Lecture4Material.sourcelink.json
