@@ -1,0 +1,14 @@
+D:\Projects\BVCProjects\Rider\Lecture4Material\Lecture4Material\bin\Debug\net9.0\Lecture4Material.exe
+D:\Projects\BVCProjects\Rider\Lecture4Material\Lecture4Material\bin\Debug\net9.0\Lecture4Material.deps.json
+D:\Projects\BVCProjects\Rider\Lecture4Material\Lecture4Material\bin\Debug\net9.0\Lecture4Material.runtimeconfig.json
+D:\Projects\BVCProjects\Rider\Lecture4Material\Lecture4Material\bin\Debug\net9.0\Lecture4Material.dll
+D:\Projects\BVCProjects\Rider\Lecture4Material\Lecture4Material\bin\Debug\net9.0\Lecture4Material.pdb
+D:\Projects\BVCProjects\Rider\Lecture4Material\Lecture4Material\obj\Debug\net9.0\Lecture4Material.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\BVCProjects\Rider\Lecture4Material\Lecture4Material\obj\Debug\net9.0\Lecture4Material.AssemblyInfoInputs.cache
+D:\Projects\BVCProjects\Rider\Lecture4Material\Lecture4Material\obj\Debug\net9.0\Lecture4Material.AssemblyInfo.cs
+D:\Projects\BVCProjects\Rider\Lecture4Material\Lecture4Material\obj\Debug\net9.0\Lecture4Material.csproj.CoreCompileInputs.cache
+D:\Projects\BVCProjects\Rider\Lecture4Material\Lecture4Material\obj\Debug\net9.0\Lecture4Material.dll
+D:\Projects\BVCProjects\Rider\Lecture4Material\Lecture4Material\obj\Debug\net9.0\refint\Lecture4Material.dll
+D:\Projects\BVCProjects\Rider\Lecture4Material\Lecture4Material\obj\Debug\net9.0\Lecture4Material.pdb
+D:\Projects\BVCProjects\Rider\Lecture4Material\Lecture4Material\obj\Debug\net9.0\Lecture4Material.genruntimeconfig.cache
+D:\Projects\BVCProjects\Rider\Lecture4Material\Lecture4Material\obj\Debug\net9.0\ref\Lecture4Material.dll
