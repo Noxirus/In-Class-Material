@@ -1,5 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using Lecture4Material;
+using Lecture4Material.TextAdventure;
+TextGame.PlayGame();
+return;
+
 int randomNumber = new Random().Next(0, 100) + 1;
 bool playingGame = true;
 int guessesRemaining = 10;
